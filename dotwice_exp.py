@@ -1,6 +1,8 @@
 #!/usr/bin/python
 from pwn import *
 
+#WhiteHat Vietnam CTF 2017
+
 #con = process( "./do_twice" )
 con = remote("dotwice.wargame.whitehat.vn", 1337)
 
